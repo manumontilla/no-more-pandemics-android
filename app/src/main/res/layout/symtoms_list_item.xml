@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/list_symtom_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:paddingLeft="16dp"
+        android:text="@string/symtom_name"
+        android:textStyle="bold"
+        android:visibility="visible"
+        tools:text="hola" />
+
+    <TextView
+        android:id="@+id/list_symtom_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="16dp"
+        android:text="@string/id"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+
+    <CheckBox
+        android:id="@+id/list_symtom_checked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:paddingRight="16dp" />
+
+</LinearLayout>
